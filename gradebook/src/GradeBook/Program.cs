@@ -8,8 +8,9 @@ namespace GradeBook
         {
             double x = 34.1;
             double y = 42.42;
+            var result = x + y;
 
-            Console.WriteLine(x + y);
+            Console.WriteLine(result);
 
             if (args.Length > 0)
             {
