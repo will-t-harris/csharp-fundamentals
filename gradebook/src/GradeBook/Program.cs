@@ -8,7 +8,8 @@ namespace GradeBook
         static void Main(string[] args)
         {
             var numbers = new[] {4.222, 42.22, 422.2, 2};
-            List<double> grades;
+            var grades = new List<double>();
+            grades.Add(42);
 
             var result = 0.0;
 
