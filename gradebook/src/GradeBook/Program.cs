@@ -7,13 +7,13 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            var numbers = new[] {4.222, 42.22, 422.2, 2};
-            var grades = new List<double>() {4.222, 42.22, 422.2, 2};
+            var book = new Book();
+            var grades = new List<double>() { 4.222, 42.22, 422.2, 2 };
             grades.Add(42);
 
             var sum = 0.0;
 
-            foreach(double grade in grades) 
+            foreach (double grade in grades)
             {
                 sum += grade;
             }
@@ -21,15 +21,6 @@ namespace GradeBook
             var average = sum / grades.Count;
 
             System.Console.WriteLine($"The average grade is {average:N1}");
-
-            if (args.Length > 0)
-            {
-                Console.WriteLine($"Hello {args[0]}!");
-            }
-            else
-            {
-                Console.WriteLine("Hello!");
-            }
         }
-    }
+    } 
 }
