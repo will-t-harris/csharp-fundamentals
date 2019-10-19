@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {}
+    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj": {}
   },
   "projects": {
-    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
+    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
-        "projectName": "GradeBook",
-        "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj",
+        "projectName": "test",
+        "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj",
         "packagesPath": "/home/will/.nuget/packages/",
-        "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/obj/",
+        "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/will/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
