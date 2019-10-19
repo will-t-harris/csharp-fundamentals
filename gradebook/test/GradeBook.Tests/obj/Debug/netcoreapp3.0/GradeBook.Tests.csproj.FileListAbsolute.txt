@@ -92,3 +92,6 @@
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.0/GradeBook.Tests.csproj.CopyComplete
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.0/GradeBook.Tests.dll
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp3.0/GradeBook.Tests.pdb
+/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.0/GradeBook
+/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.0/GradeBook.dll
+/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp3.0/GradeBook.pdb

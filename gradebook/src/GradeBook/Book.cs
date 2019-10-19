@@ -16,22 +16,22 @@ namespace GradeBook
             this.grades.Add(grade);
         }
 
-        public void ShowStatistics()
+        public Statistics GetStatistics()
         {
-            var average = 0.0;
-            var highGrade = double.MinValue;
-            var lowGrade = double.MaxValue;
+
+            var result = new Statistics();
+            result.High = double.MinValue;
+            result.Low = double.MaxValue;
 
             foreach (var grade in grades)
             {
-                lowGrade = Math.Min(grade, lowGrade);
-                highGrade = Math.Max(grade, highGrade);
-                average += grade;
+                result.Low = Math.Min(grade, result.Low);
+                result.High = Math.Max(grade, result.High);
+                result.Average += grade;
             }
-            average /= grades.Count;
-            Console.WriteLine($"The lowest grade is {lowGrade:N2}");
-            Console.WriteLine($"The highest grade is {highGrade:N2}");
-            Console.WriteLine($"The average grade is {average:N2}");
+            result.Average /= grades.Count;
+
+            return result;
         }
 
         private List<double> grades;
