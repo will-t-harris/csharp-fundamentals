@@ -10,10 +10,15 @@ namespace GradeBook.Tests
         {
             // arrange
             var book = new Book("");
-            // act
+            book.AddGrade(89.1);
+            book.AddGrade(90.5);
+            book.AddGrade(77.7);
 
-            // assert
+            // act
+            book.ShowStatistics();
             
+            // assert
+
         }
     }
 }
