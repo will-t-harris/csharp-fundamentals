@@ -6585,11 +6585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj",
-      "projectName": "test",
-      "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/test.csproj",
+      "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+      "projectName": "GradeBook.Tests",
+      "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
       "packagesPath": "/home/will/.nuget/packages/",
-      "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/obj/",
+      "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/will/.nuget/NuGet/NuGet.Config"
