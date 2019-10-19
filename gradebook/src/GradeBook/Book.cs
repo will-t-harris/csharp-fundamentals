@@ -1,9 +1,9 @@
- using System;
+using System;
 using System.Collections.Generic;
 
 namespace GradeBook
 {
-    class Book
+    public class Book
     {
         public Book(string name)
         {
@@ -16,12 +16,14 @@ namespace GradeBook
             this.grades.Add(grade);
         }
 
-        public void ShowStatistics(){
+        public void ShowStatistics()
+        {
             var average = 0.0;
             var highGrade = double.MinValue;
             var lowGrade = double.MaxValue;
 
-            foreach(var grade in grades) {
+            foreach (var grade in grades)
+            {
                 lowGrade = Math.Min(grade, lowGrade);
                 highGrade = Math.Max(grade, highGrade);
                 average += grade;

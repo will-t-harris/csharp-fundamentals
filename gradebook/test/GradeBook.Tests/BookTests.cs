@@ -3,21 +3,17 @@ using Xunit;
 
 namespace GradeBook.Tests
 {
-    public class UnitTest1
+    public class BookTests
     {
         [Fact]
         public void Test1()
         {
             // arrange
-            var x = 5;
-            var y = 2;
-
+            var book = new Book("");
             // act
-            var expected = 7;
-            var actual = x + y;
 
             // assert
-            Assert.Equal(expected, actual);
+            
         }
     }
 }
