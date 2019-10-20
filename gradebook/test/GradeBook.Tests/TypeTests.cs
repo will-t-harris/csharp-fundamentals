@@ -11,7 +11,7 @@ namespace GradeBook.Tests
             var x = GetInt();
             SetInt(ref x);
 
-            Assert.Equal(x, 42);
+            Assert.Equal(42, x);
         }
 
         private void SetInt(ref int x)
@@ -64,6 +64,21 @@ namespace GradeBook.Tests
         private void SetName(Book book1, string name)
         {
             book1.Name = name;
+        }
+
+        [Fact]
+        public void StringsBehaveLikeValueTypes()
+        {
+            string name = "Will";
+            var upper = MakeUppercase(name);
+
+            Assert.Equal("Will", name);
+            Assert.Equal("WILL", upper);
+        }
+
+        private string MakeUppercase(string parameter)
+        {
+            return parameter.ToUpper();
         }
 
         [Fact]
