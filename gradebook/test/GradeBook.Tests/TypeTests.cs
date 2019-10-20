@@ -20,6 +20,20 @@ namespace GradeBook.Tests
             Assert.Equal("Book 2", book2.Name);
         }
 
+        [Fact]
+        public void TwoVarsCanReferenceSameObject()
+        {
+            // arrange
+            var book1 = GetBook("Book 1");
+
+            // act
+            var book2 = book1;
+
+            // assert
+            Assert.Same(book1, book2);
+            Assert.True(Object.ReferenceEquals(book1, book2));
+        }
+
         Book GetBook(string name)
         {
             return new Book(name);
