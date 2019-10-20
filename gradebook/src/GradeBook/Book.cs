@@ -5,17 +5,20 @@ namespace GradeBook
 {
     public class Book
     {
+        // Book constructor
         public Book(string name)
         {
             grades = new List<double>();
-            this.name = name;
+            Name = name;
         }
 
+        // Add grade method
         public void AddGrade(double grade)
         {
             this.grades.Add(grade);
         }
 
+        // Get statistics method
         public Statistics GetStatistics()
         {
 
@@ -25,6 +28,7 @@ namespace GradeBook
 
             foreach (var grade in grades)
             {
+                // Comput high/low/average values
                 result.Low = Math.Min(grade, result.Low);
                 result.High = Math.Max(grade, result.High);
                 result.Average += grade;
@@ -35,6 +39,6 @@ namespace GradeBook
         }
 
         private List<double> grades;
-        private string name;
+        public string Name;
     }
 }
