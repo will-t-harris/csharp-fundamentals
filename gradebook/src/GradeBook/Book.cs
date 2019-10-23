@@ -39,7 +39,6 @@ namespace GradeBook
                 result.Low = Math.Min(grades[i], result.Low);
                 result.High = Math.Max(grades[i], result.High);
                 result.Average += grades[i];
-                i++;
             }
             result.Average /= grades.Count;
 
