@@ -15,7 +15,14 @@ namespace GradeBook
         // Add grade method
         public void AddGrade(double grade)
         {
-            this.grades.Add(grade);
+            if (grade <= 100 && grade >= 0)
+            {
+                this.grades.Add(grade);
+            }
+            else 
+            {
+                System.Console.WriteLine("Invalid value");
+            }
         }
 
         // Get statistics method
@@ -26,13 +33,15 @@ namespace GradeBook
             result.High = double.MinValue;
             result.Low = double.MaxValue;
 
-            foreach (var grade in grades)
+            var index = 0;
+            do
             {
                 // Comput high/low/average values
-                result.Low = Math.Min(grade, result.Low);
-                result.High = Math.Max(grade, result.High);
-                result.Average += grade;
-            }
+                result.Low = Math.Min(grades[index], result.Low);
+                result.High = Math.Max(grades[index], result.High);
+                result.Average += grades[index];
+                index++;
+            } while(index < grades.Count);
             result.Average /= grades.Count;
 
             return result;

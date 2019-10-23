@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
         "packagesPath": "/home/will/.nuget/packages/",
-        "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/obj/",
+        "outputPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/will/.nuget/NuGet/NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "projectUniqueName": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
         "packagesPath": "/home/will/.nuget/packages/",
-        "outputPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/",
+        "outputPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/will/.nuget/NuGet/NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
-                "projectPath": "/home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj"
+              "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
+                "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj"
               }
             }
           }

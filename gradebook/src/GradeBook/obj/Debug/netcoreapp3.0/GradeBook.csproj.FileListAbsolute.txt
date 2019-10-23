@@ -31,3 +31,14 @@ C:/Users/wharris/Documents/code/csharp-fundamentals/gradebook/src/GradeBook/obj/
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfo.cs
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.dll
 /home/will/Documents/code/C#-tuts/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.pdb
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.deps.json
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.json
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.dev.json
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.dll
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.pdb
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.csprojAssemblyReference.cache
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfoInputs.cache
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfo.cs
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.dll
+/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.pdb
