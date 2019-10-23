@@ -32,6 +32,7 @@ namespace GradeBook
             var result = new Statistics();
             result.High = double.MinValue;
             result.Low = double.MaxValue;
+            result.Average = 0.0;
 
             for(var i = 0; i < grades.Count; i++)
             {
