@@ -12,6 +12,8 @@ namespace GradeBook.Tests
         {
             WriteLogDelegate log;
 
+            // log = new WriteLogDelegate(ReturnMessage);
+            // These two lines are equivalent
             log = ReturnMessage;
 
             var result = log("Hello");
