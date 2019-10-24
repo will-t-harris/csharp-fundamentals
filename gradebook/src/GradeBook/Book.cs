@@ -69,23 +69,7 @@ namespace GradeBook
 
         public string Name
         {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                // 'value' here is an implicit variable in a setter
-                if(!String.IsNullOrEmpty(value))
-                {
-                name = value;
-                }
-                else 
-                {
-                    throw new ArgumentException();
-                }
-            }
+            get; set;
         }
-        private string name;
     }
 }
