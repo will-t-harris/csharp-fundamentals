@@ -36,6 +36,10 @@ namespace GradeBook
                 {
                     Console.WriteLine(ex.Message);
                 }
+                finally
+                {
+                    Console.WriteLine("**");
+                }
             }
 
             var stats = book.GetStatistics();
