@@ -76,13 +76,13 @@ namespace GradeBook
             set
             {
                 // 'value' here is an implicit variable in a setter
-                if(String.IsNullOrEmpty(value))
+                if(!String.IsNullOrEmpty(value))
                 {
                 name = value;
                 }
                 else 
                 {
-                    Console.WriteLine("Invalid value");
+                    throw new ArgumentException();
                 }
             }
         }
