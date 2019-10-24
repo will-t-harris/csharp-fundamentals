@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {}
+    "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
+    "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
-        "packagesPath": "/home/will/.nuget/packages/",
-        "outputPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/",
+        "projectPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\wharris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/will/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\wharris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
