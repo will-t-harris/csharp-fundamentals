@@ -72,6 +72,6 @@ namespace GradeBook
             get; set;
         }
 
-        readonly string category = "Science Fiction";
+        public const string CATEGORY = "Science Fiction";
     }
 }
