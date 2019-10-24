@@ -10,23 +10,23 @@ namespace GradeBook
             var book = new Book("My Grade Book");
             
             // use console.readline to get user input "please enter a grade"
-            do
-            {
-                Console.WriteLine("Please enter a grade (press the q key to exit)");      
-                var input = Console.ReadLine();
-                var isDouble = Double.TryParse(input, out double result);
-                if (isDouble)
-                {
-                    var grade = Double.Parse(input);
-                    book.AddGrade(grade);
-                }
-            } while (input.ToLower() != 'q');
             // if the user enters a number, add the number to the gradebook
             // if the user enters 'q', quit the loop
+
+            while(true)
+            {
+                Console.WriteLine("Enter a grade or 'q' to quit");
+                string input = Console.ReadLine();
+
+                if(input == "q")
+                {
+                    break;
+                }
+
+                double grade = double.Parse(input);
+                book.AddGrade(grade);
+            }
             
-            book.AddGrade(90.2);
-
-
             var stats = book.GetStatistics();
             Console.WriteLine($"The lowest grade is {stats.Low:N2}");
             Console.WriteLine($"The highest grade is {stats.High:N2}");
