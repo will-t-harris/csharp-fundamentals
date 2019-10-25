@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-        "packagesPath": "C:\\Users\\wharris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\obj\\",
+        "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "packagesPath": "/home/will/.nuget/packages/",
+        "outputPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wharris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/will/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,35 +50,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-        "packagesPath": "C:\\Users\\wharris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "packagesPath": "/home/will/.nuget/packages/",
+        "outputPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/test/GradeBook.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wharris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/will/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\wharris\\Documents\\code\\csharp-fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
+                "projectPath": "/home/will/Documents/Code/csharp-fundamentals/gradebook/src/GradeBook/GradeBook.csproj"
               }
             }
           }
@@ -126,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
