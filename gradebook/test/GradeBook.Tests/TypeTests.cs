@@ -17,9 +17,10 @@ namespace GradeBook.Tests
             // log = new WriteLogDelegate(ReturnMessage);
             // These two lines are equivalent
             log += ReturnMessage;
+            log += IncrementCount;
 
             var result = log("Hello");
-            Assert.Equal("Hello", result);
+            Assert.Equal(3, count);
         }
 
         string IncrementCount(string message)
