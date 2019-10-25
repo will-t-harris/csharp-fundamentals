@@ -9,6 +9,8 @@ namespace GradeBook
         {
             var book = new Book("My Grade Book");
 
+            book.GradeAdded += OnGradeAdded;
+
             // use console.readline to get user input "please enter a grade"
             // if the user enters a number, add the number to the gradebook
             // if the user enters 'q', quit the loop
@@ -48,6 +50,11 @@ namespace GradeBook
             Console.WriteLine($"The highest grade is {stats.High:N2}");
             Console.WriteLine($"The average grade is {stats.Average:N2}");
             Console.WriteLine($"The letter grade is {stats.Letter}");
+        }
+
+        static void OnGradeAdded(object sender, EventArgs e)
+        {
+            Console.WriteLine("A grade was added");
         }
     }
 }
