@@ -22,6 +22,11 @@ namespace GradeBook
             if (grade <= 100 && grade >= 0)
             {
                 this.grades.Add(grade);
+                // if GradeAdded has a value, fire the event
+                if(GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
             }
             else
             {
@@ -29,6 +34,7 @@ namespace GradeBook
             }
         }
 
+        // define GradeAdded event
         public event GradeAddedDelegate GradeAdded;
 
         // Get statistics method
