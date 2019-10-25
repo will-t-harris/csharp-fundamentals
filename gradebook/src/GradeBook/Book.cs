@@ -29,6 +29,8 @@ namespace GradeBook
             }
         }
 
+        public event GradeAddedDelegate GradeAdded;
+
         // Get statistics method
         public Statistics GetStatistics()
         {
