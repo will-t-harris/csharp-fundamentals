@@ -9,6 +9,12 @@ namespace GradeBook
 
     public class NamedObject
     {
+        // NamedObject constructor
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+
         public string Name
         {
             get;
@@ -16,12 +22,19 @@ namespace GradeBook
         }
     }
 
+    
     public class Book : NamedObject
     {
         // Book constructor
-        public Book(string name)
+        public Book(string name) : base("")
         {
             grades = new List<double>();
+            Name = name;
+        }
+
+        public Book(List<double> grades, string name)
+        {
+            this.grades = grades;
             Name = name;
         }
 
