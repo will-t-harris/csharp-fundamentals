@@ -48,22 +48,22 @@ namespace GradeBook
     }
 
 
-    public class DiskBook : IBook
+    public class DiskBook : Book
     {
         public DiskBook(string name) : base(name)
         {
-            
+
         }
         public string Name => throw new NotImplementedException();
 
-        public event GradeAddedDelegate GradeAdded;
+        public override event GradeAddedDelegate GradeAdded;
 
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             throw new NotImplementedException();
         }
 
-        public Statistics GetStatistics()
+        public override Statistics GetStatistics()
         {
             throw new NotImplementedException();
         }
