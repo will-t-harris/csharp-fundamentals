@@ -49,11 +49,11 @@ namespace GradeBook
             Name = name;
         }
 
-        public InMemoryBook(List<double> grades, string name)
-        {
-            this.grades = grades;
-            Name = name;
-        }
+        // public InMemoryBook(List<double> grades, string name)
+        // {
+        //     this.grades = grades;
+        //     Name = name;
+        // }
 
         // Add grade method
         public override void AddGrade(double grade)
@@ -118,10 +118,10 @@ namespace GradeBook
 
         private List<double> grades;
 
-        public string Name
-        {
-            get; set;
-        }
+        // public string Name
+        // {
+        //     get; set;
+        // }
 
         public const string CATEGORY = "Science Fiction";
     }
