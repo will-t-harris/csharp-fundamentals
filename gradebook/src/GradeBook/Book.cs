@@ -22,6 +22,7 @@ namespace GradeBook
         }
     }
 
+    // Book Interface
     public interface IBook
     {
         void AddGrade(double grade);
@@ -40,7 +41,7 @@ namespace GradeBook
     }
 
 
-    public class InMemoryBook : Book
+    public class InMemoryBook : Book, IBook
     {
         // Book constructor
         public InMemoryBook(string name) : base("")
