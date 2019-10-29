@@ -37,11 +37,11 @@ namespace GradeBook
         {
         }
 
-        public event GradeAddedDelegate GradeAdded;
+        public virtual event GradeAddedDelegate GradeAdded;
 
         public abstract void AddGrade(double grade);
 
-        public Statistics GetStatistics()
+        public virtual Statistics GetStatistics()
         {
             throw new NotImplementedException();
         }
@@ -82,10 +82,10 @@ namespace GradeBook
         }
 
         // define GradeAdded event
-        public event GradeAddedDelegate GradeAdded;
+        public override event GradeAddedDelegate GradeAdded;
 
         // Get statistics method
-        public Statistics GetStatistics()
+        public override Statistics GetStatistics()
         {
 
             var result = new Statistics();
