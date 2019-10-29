@@ -31,17 +31,24 @@ namespace GradeBook
         event GradeAddedDelegate GradeAdded;
     }
 
-    public abstract class Book : NamedObject
+    public abstract class Book : NamedObject, IBook
     {
         public Book(string name) : base(name)
         {
         }
 
+        public event GradeAddedDelegate GradeAdded;
+
         public abstract void AddGrade(double grade);
+
+        public Statistics GetStatistics()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
-    public class InMemoryBook : Book, IBook
+    public class InMemoryBook : Book
     {
         // Book constructor
         public InMemoryBook(string name) : base("")
