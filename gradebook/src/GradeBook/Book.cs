@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace GradeBook
 {
@@ -37,14 +38,11 @@ namespace GradeBook
         {
         }
 
-        public virtual event GradeAddedDelegate GradeAdded;
+        public abstract event GradeAddedDelegate GradeAdded;
 
         public abstract void AddGrade(double grade);
 
-        public virtual Statistics GetStatistics()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract Statistics GetStatistics();
     }
 
 
@@ -54,13 +52,17 @@ namespace GradeBook
         {
 
         }
-        public string Name => throw new NotImplementedException();
 
         public override event GradeAddedDelegate GradeAdded;
 
         public override void AddGrade(double grade)
         {
-            throw new NotImplementedException();
+            // create stream writer
+            var writer = File.AppendText($"C:\\Users\\wharris\\Documents\\{Name}.txt");
+            // call write line to add grade to file
+            writer.WriteLine(grade);
+            // dispose of writer
+            writer.Dispose();
         }
 
         public override Statistics GetStatistics()
