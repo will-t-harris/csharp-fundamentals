@@ -22,24 +22,33 @@ namespace GradeBook
         }
     }
 
+    public abstract class Book : NamedObject
+    {
+        public Book(string name) : base(name)
+        {
+        }
+
+        public abstract void AddGrade(double grade);
+    }
+
     
-    public class Book : NamedObject
+    public class InMemoryBook : Book
     {
         // Book constructor
-        public Book(string name) : base("")
+        public InMemoryBook(string name) : base("")
         {
             grades = new List<double>();
             Name = name;
         }
 
-        public Book(List<double> grades, string name)
+        public InMemoryBook(List<double> grades, string name)
         {
             this.grades = grades;
             Name = name;
         }
 
         // Add grade method
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             if (grade <= 100 && grade >= 0)
             {
