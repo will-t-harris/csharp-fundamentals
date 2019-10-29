@@ -48,6 +48,27 @@ namespace GradeBook
     }
 
 
+    public class DiskBook : IBook
+    {
+        public DiskBook(string name) : base(name)
+        {
+            
+        }
+        public string Name => throw new NotImplementedException();
+
+        public event GradeAddedDelegate GradeAdded;
+
+        public void AddGrade(double grade)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Statistics GetStatistics()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class InMemoryBook : Book
     {
         // Book constructor
