@@ -7,7 +7,16 @@ namespace GradeBook
     // define event delegate
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
-    public class Book
+    public class NamedObject
+    {
+        public string Name
+        {
+            get;
+            set;
+        }
+    }
+
+    public class Book : NamedObject
     {
         // Book constructor
         public Book(string name)
@@ -23,7 +32,7 @@ namespace GradeBook
             {
                 this.grades.Add(grade);
                 // if GradeAdded has a value, fire the event
-                if(GradeAdded != null)
+                if (GradeAdded != null)
                 {
                     GradeAdded(this, new EventArgs());
                 }
